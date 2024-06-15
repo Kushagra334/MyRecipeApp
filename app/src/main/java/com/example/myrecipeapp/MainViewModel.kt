@@ -25,7 +25,6 @@ class MainViewModel : ViewModel(){
                     loading = false,
                     error = null
                 )
-
             }catch (e : Exception){
                 _categorieState.value = _categorieState.value.copy(
                     loading = false,
